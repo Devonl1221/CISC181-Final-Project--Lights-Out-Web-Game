@@ -1,0 +1,24 @@
+<div class="body">
+    <div>
+        <Label> Game Type: </Label>
+        <select id="game-type">
+            <option value="Cardinal Neighbors">Cardinal Neighbors</option>
+            <option value="Diagonal Neighbors">Diagonal Neighbors</option>
+            <option value="Row and Column">Row and Column</option>
+        </select>
+    </div>
+    <div>
+        <Label id="slider"> Width: </Label>
+        <span> 3 </span>
+        <input type="range" min="3" max="10" value="5" step="1" />
+        <span> 10 </span>
+    </div>
+    <div>
+        <Label id="slider"> Height: </Label>
+        <span> 3 </span>
+        <input type="range" min="3" max="10" value="5" step="1" />
+        <span> 10 </span>
+    </div>
+</div>
+<button id="new-game">New Game</button>
+<div id="lights" style="width: 320px; height: 320px"></div>
