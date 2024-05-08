@@ -1,9 +1,0 @@
-#light {
-    height: 64px;
-    width: 64px;
-    position: absolute;
-    background-color: rgb(12, 204, 216);
-    box-sizing: border-box;
-    border: 2px solid rgb(20, 48, 64);
-    border-radius: 8px;
-}
