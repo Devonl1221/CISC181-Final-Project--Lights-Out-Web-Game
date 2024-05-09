@@ -1,0 +1,29 @@
+.body {
+    font-size: 16px;
+    color: rgb(20, 60, 84);
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#new-game {
+    margin-bottom: 10px;
+}
+#lights {
+    display: grid;
+    background-color: rgb(20, 48, 64);
+    border: 2px solid;
+    position: relative;
+    margin: 0 auto;
+    align-content: left;
+    transition: margin-left 0.05s ease;
+}
+@media screen and (max-width: 640px) {
+    .grid {
+        margin-left: -25px;
+    }
+}
+@media screen and (min-width: 660px) {
+    .grid {
+        margin-left: -25px;
+    }
+}

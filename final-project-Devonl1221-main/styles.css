@@ -1,0 +1,9 @@
+/*Put your global styles here.  
+* Individual components can be styled locatlly
+*/
+
+/* Add your global styles here */
+/* Note you cannot use url's in this file, you must put those in the component's css file 
+* or put a new css file in the assets directory and add it to the head element
+* of the index.html file if you need them to be global.
+*/
